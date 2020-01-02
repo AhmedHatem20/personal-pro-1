@@ -1,0 +1,139 @@
+body{
+   overflow-x: hidden;
+   font-family: 'Cairo', sans-serif;
+color: #000;
+}
+
+/*start nav bar*/
+
+
+.bg-dark {
+    background-color: #000000!important;
+}
+
+/*end nav bar*/
+/*start header*/
+.header{
+    background-image: url('https://www.thannleder.de/wp-content/themes/thann/img/guertel-tremelhausen-pia.jpg');
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.text-header,.text-header2{
+    position: absolute;
+    top: 45%;
+    left: 64%;
+    color: #fff;
+    font-size: 40px;
+}
+.text-header2{
+    top: 53%;
+    left: 66%;
+    font-size: 20px;
+}
+.button-header{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    background: #d85e43;
+    display: inline-block;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 15px;
+    transition: all .6s ease-in-out;
+}
+.button-header:focus{
+    outline: none;
+}
+.button-header:hover{
+    background: #3f1786;
+    
+}
+.button-header2{
+        position: absolute;
+    top: 60%;
+    left: 77%;
+    background: #000;
+    display: inline-block;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 15px;
+    transition: .5s;
+}
+.button-header2:hover{
+      color: #d85e43;
+}
+/*end header*/
+
+
+/*start product*/
+.button-product{
+    display: -webkit-box;
+    margin: 0 auto;
+    background: none;
+    border: 2px solid #fff;
+    padding: 11px 24px;
+    margin-top: 36px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+.button-product:hover{
+    background: #fff;
+    color: #000;
+     border: 2px solid;
+}
+
+/*end prouduct*/
+
+/*start icon*/
+
+.text-icon{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 52px;
+    color: #fff;
+}
+.text-icon2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    opacity: .8;
+     margin-bottom: 55px;
+    color: #fff;
+}
+
+/*end icon*/
+
+
+
+
+
+
+/*start media query*/
+
+@media only screen and ( max-width:768px){
+    
+    .button-header{
+        left: 33%;
+    }
+    .text-header{
+    top: 48%;
+    left: 46%;
+    color: #fff;
+    font-size: 28px;
+    }
+    .text-header2{
+    top: 54%;
+    left: 52%;
+  
+    }
+    .text-icon{
+     font-size: 37px;
+    }
+    
+}
